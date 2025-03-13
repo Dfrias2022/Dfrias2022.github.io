@@ -1,11 +1,8 @@
 import qrcode
+from PIL import Image,ImageDraw,ImageFont   #PARA TRABAJAR CON LA LIBRERIA DE IMAGENES
 
-
-
-
-
-
-
+URL_DEFINIDA = "https://dfrias2022.github.io/"
+IMAGEN_DEFINIDA = "qrGenerado"
 
 def creado_de_qr(enlace,nombre_Imagen):
     cadena = enlace                                             #DONDE IRA EL LINK PARA QR
@@ -19,3 +16,5 @@ def creado_de_qr(enlace,nombre_Imagen):
     archivo_imagen.close()                                      #CIERRO EL ARCHIVO DE IMAGEN PARA GUARDAR LOS CAMBIOS
     #return archivo_imagen
     return imagen_creada
+
+creado_de_qr(URL_DEFINIDA,IMAGEN_DEFINIDA)
