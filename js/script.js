@@ -41,7 +41,7 @@ const productos = [
         precio: 49.99
     },
     {
-        nombre: "Hamburguesa Barfi x4",
+        nombre: "Hamburguesa Barfy x4",
         imagen: "imagenes/9.jpg",
         precio: 49.99
     },
