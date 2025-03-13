@@ -79,6 +79,16 @@ const productos = [
         nombre: "Azucar marolio x1kg",
         imagen: "imagenes/16.jpg",
         precio: 1100.00
+    },
+    {
+        nombre: "Pan lactal x560Grs",
+        imagen: "imagenes/17.jpg",
+        precio: 2500.00
+    },
+    {
+        nombre: "Harina marolio OOO",
+        imagen: "imagenes/18.jpg",
+        precio: 700.00
     }
 ];
 
