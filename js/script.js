@@ -81,7 +81,7 @@ const productos = [
         precio: "$1100.00"
     },
     {
-        nombre: "Pan lactal x560Grs",
+        nombre: "Pan lactal ''Montesion'' x560Grs",
         imagen: "imagenes/17.jpg",
         precio: "$2500.00"
     },
