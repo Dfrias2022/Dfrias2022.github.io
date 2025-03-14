@@ -1,22 +1,22 @@
 // Datos de los productos (pueden venir de una API, base de datos, etc.)
 const productos = [
     {
-        nombre: "Aceite natura girasol x900cc",
+        nombre: "Aceite Natura girasol x900cc",
         imagen: "imagenes/1.jpg",
         precio: "$2200.00"
     },
     {
-        nombre: "Aceite marolio girasol x900cc",
+        nombre: "Aceite Marolio girasol x900cc",
         imagen: "imagenes/2.jpg",
         precio: "$2100.00"
     },
     {
-        nombre: "Sal fina celusal x500Grs",
+        nombre: "Sal fina Celusal x500Grs",
         imagen: "imagenes/3.jpg",
         precio: "$1000.00"
     },
     {
-        nombre: "Hamburguesa clasica Paty caja x4",
+        nombre: "Hamburguesa clasica ''Paty'' caja x4",
         imagen: "imagenes/4.jpg",
         precio: ["$4300.00 c/u","x2 $8000.00"]
     },
@@ -31,7 +31,7 @@ const productos = [
         precio: "$1600.00"
     },
     {
-        nombre: "Hamburguesa Paty finito x2",
+        nombre: "Hamburguesa ''Paty'' finito x2",
         imagen: "imagenes/7.jpg",
         precio: ["$1300.00 c/u","x2 $2400.00","x3 $3000.00"]
     },
@@ -41,7 +41,7 @@ const productos = [
         precio: "$700.00"
     },
     {
-        nombre: "Hamburguesa Barfy caja x4",
+        nombre: "Hamburguesa ''Barfy'' caja x4",
         imagen: "imagenes/9.jpg",
         precio: ["$1800.00 c/u","x2 $3000.00"]
     },
@@ -51,7 +51,7 @@ const productos = [
         precio: "$2000.00"
     },
     {
-        nombre: "Galletita La providencia x3",
+        nombre: "Galletita ''La providencia'' x3",
         imagen: "imagenes/11.jpg",
         precio: "$1100.00"
     },
@@ -76,7 +76,7 @@ const productos = [
         precio: "$1300.00"
     },
     {
-        nombre: "Azucar marolio x1kg",
+        nombre: "Azucar marolio 1kg",
         imagen: "imagenes/16.jpg",
         precio: "$1100.00"
     },
@@ -86,7 +86,7 @@ const productos = [
         precio: "$2500.00"
     },
     {
-        nombre: "Harina marolio OOO",
+        nombre: "Harina Marolio ''OOO'' 1Kg",
         imagen: "imagenes/18.jpg",
         precio: "$700.00"
     }
