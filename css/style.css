@@ -85,6 +85,9 @@ body {
     text-align: center;
     border-radius: 0 0 10px 10px; /* Bordes redondeados solo abajo */
     flex-shrink: 0; /* Evita que el precio se reduzca */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espacio entre los precios */
 }
 
 /* Responsividad */
