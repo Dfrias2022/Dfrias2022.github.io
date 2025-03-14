@@ -7,7 +7,7 @@ body {
 }
 
 /* Cabecera centrada */
-.cabecera {
+.cabecera, footer {
     text-align: center;
     background-color: #ff6f61;
     color: white;
