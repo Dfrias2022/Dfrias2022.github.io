@@ -73,7 +73,7 @@ const productos = [
     {
         nombre: "Fideo luchetti x500Grs",
         imagen: "imagenes/15.jpg",
-        precio: 100.00
+        precio: 1300.00
     },
     {
         nombre: "Azucar marolio x1kg",
