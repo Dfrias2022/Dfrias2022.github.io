@@ -3,12 +3,12 @@ const productos = [
     {
         nombre: "Aceite Natura girasol x900cc",
         imagen: "imagenes/1.jpg",
-        precio: "$2200.00"
+        precio: "$2500.00"
     },
     {
         nombre: "Aceite Marolio girasol x900cc",
         imagen: "imagenes/2.jpg",
-        precio: "$2100.00"
+        precio: "$2300.00"
     },
     {
         nombre: "Sal fina Celusal x500Grs",
@@ -33,7 +33,7 @@ const productos = [
     {
         nombre: "Hamburguesa ''Paty'' finito x2",
         imagen: "imagenes/7.jpg",
-        precio: ["$1300.00 c/u","x2 $2400.00","x3 $3000.00"]
+        precio: "$1300.00"
     },
     {
         nombre: "Picadillo de carne Molto x 70Grs",
@@ -43,7 +43,7 @@ const productos = [
     {
         nombre: "Hamburguesa ''Barfy'' caja x4",
         imagen: "imagenes/9.jpg",
-        precio: ["$1800.00 c/u","x2 $3000.00"]
+        precio: ["$1800.00 c/u","x2 $3200.00"]
     },
     {
         nombre: "Petaca licor cusenier menta",
@@ -89,6 +89,16 @@ const productos = [
         nombre: "Harina Marolio ''OOO'' 1Kg",
         imagen: "imagenes/18.jpg",
         precio: "$700.00"
+    },
+    {
+        nombre: "Rollo cocina ''Susex'' x3",
+        imagen: "imagenes/19.jpg",
+        precio :"$1500.00"
+    },
+    {
+        nombre: "Lavavajillas Esencial x750cc",
+        imagen: "imagenes/20.jpg",
+        precio: "$1200.00"
     }
 ];
 
