@@ -1,3 +1,21 @@
+// Función para formatear la fecha en formato "dd/mm/aaaa"
+function formatearFecha(fecha) {
+    const dia = String(fecha.getDate()).padStart(2, '0'); // Asegura 2 dígitos
+    const mes = String(fecha.getMonth() + 1).padStart(2, '0'); // Los meses van de 0 a 11
+    const anio = fecha.getFullYear();
+    return `${dia}/${mes}/${anio}`;
+}
+
+// Función para actualizar el título con la fecha actual
+function actualizarTitulo() {
+    const fechaActual = new Date(); // Obtiene la fecha actual
+    const fechaFormateada = formatearFecha(fechaActual); // Formatea la fecha
+    const tituloOfertas = document.getElementById("titulo-ofertas");
+    tituloOfertas.textContent = `¡Ofertas Especiales del ${fechaFormateada}!`;
+}
+
+
+
 // Datos de los productos (pueden venir de una API, base de datos, etc.)
 const productos = [
     {
