@@ -49,11 +49,6 @@ const productos = [
         precio: "$1600.00"
     },
     {
-        nombre: "Hamburguesa ''Paty'' finito x2",
-        imagen: "imagenes/7.jpg",
-        precio: "$1300.00"
-    },
-    {
         nombre: "Picadillo de carne Molto x 70Grs",
         imagen: "imagenes/8.jpg",
         precio: "$700.00"
@@ -87,11 +82,6 @@ const productos = [
         nombre: "Pure molto x520Grs",
         imagen: "imagenes/14.jpg",
         precio: "$1000.00"
-    },
-    {
-        nombre: "Fideo luchetti x500Grs",
-        imagen: "imagenes/15.jpg",
-        precio: "$1300.00"
     },
     {
         nombre: "Azucar marolio 1kg",
